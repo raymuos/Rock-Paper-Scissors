@@ -39,17 +39,16 @@ h1{
 h2{
     font-size: 1.2rem;
     font-family: PressStart2P;
-    color:#00b0b0;
+    color:#00dddd;
     font-weight: 400;
 }
 
 #score-div{
-    color: #222;
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
     /* background-color: hsla(47, 100%, 69%, 0.4); */
-    backdrop-filter: blur(6px);
+    /* backdrop-filter: blur(6px); */
     padding: 20px;
     /* border: 2px solid hsl(47, 100%, 69%);
     border-radius: 20px; */
@@ -96,9 +95,10 @@ h2{
 }
 
 #cChoiceDiv{
-    color: #ac1100;
+    color: #ff1900;
     font-family: PressStart2P;
     font-size: 0.8rem;
+    font-weight: 400;
     /* background-color: #ffa1d288;
     border-radius: 20px;
     border: 2px solid rgb(172, 17, 0); */
@@ -115,6 +115,8 @@ h2{
 
 #result-div{
     font-family: PressStart2P;
+    font-size: 1.2rem;
+    color: #ffff00;
 }
 #cChoice{
     display: flex;
@@ -122,15 +124,17 @@ h2{
     align-items: center;
     padding: 10px;
     font-size: 3rem;
-    background: #ac1100;
+    background: #ac110088;
     border-radius: 50%;
-    cursor: pointer;
+    border: 2px solid #ff1900;
+    cursor:not-allowed;
 }
 
 #pShowDiv{
-    color: #00a906;
+    color: #00e108;
     font-family: PressStart2P;
     font-size: 0.8rem;
+    font-weight: 400;
     /* background-color: #ffa1d288; 
     border-radius: 20px;
     border: 2px solid hwb(6 0% 33%); */
@@ -151,7 +155,8 @@ h2{
     align-items: center;
     padding: 10px;
     font-size: 3rem;
-    background: #00a906;
+    background: #00a90688;
     border-radius: 50%;
-    cursor: pointer;
+    border: 2px solid #00e108;
+    cursor:not-allowed;
 }
