@@ -1,0 +1,157 @@
+
+@font-face {
+    font-family: PressStart2P;
+    src: url(fonts/PressStart2P-Regular.ttf);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(fonts/Outfit-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body{
+    font-family: Outfit;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    gap: 30px;
+    background: #232323;
+    color: #eee;
+}
+
+h1{
+    font-family: PressStart2P;
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #FFC800;
+}
+
+h2{
+    font-size: 1.2rem;
+    font-family: PressStart2P;
+    color:#00b0b0;
+    font-weight: 400;
+}
+
+#score-div{
+    color: #222;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    /* background-color: hsla(47, 100%, 69%, 0.4); */
+    backdrop-filter: blur(6px);
+    padding: 20px;
+    /* border: 2px solid hsl(47, 100%, 69%);
+    border-radius: 20px; */
+    width: 350px;
+}
+
+#arena{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 25px;
+}
+
+#pChoiceDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding-block: 20px;
+    gap: 10px;
+    color: rgb(172, 17, 0);
+    /* background-color: #4CAF5066; */
+    width: 350px;
+    /* border-radius: 20px;
+    border: 2px solid #29612b; */
+}
+
+.pChoice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 3rem;
+    background: #1b74bd;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: scale 0.3s;
+}
+
+.pChoice:hover{
+    scale: 1.05;
+}
+
+#cChoiceDiv{
+    color: #ac1100;
+    font-family: PressStart2P;
+    font-size: 0.8rem;
+    /* background-color: #ffa1d288;
+    border-radius: 20px;
+    border: 2px solid rgb(172, 17, 0); */
+    width: 175px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#result-div{
+    font-family: PressStart2P;
+}
+#cChoice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 3rem;
+    background: #ac1100;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#pShowDiv{
+    color: #00a906;
+    font-family: PressStart2P;
+    font-size: 0.8rem;
+    /* background-color: #ffa1d288; 
+    border-radius: 20px;
+    border: 2px solid hwb(6 0% 33%); */
+    width: 175px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#pShow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 3rem;
+    background: #00a906;
+    border-radius: 50%;
+    cursor: pointer;
+}
